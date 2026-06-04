@@ -88,8 +88,7 @@ export function Gallery() {
           ))}
         </div>
       </div>
-      {/* keep motion import referenced for tree-shaking parity */}
-      <motion.span className="sr-only" aria-hidden />
     </section>
+
   );
 }
