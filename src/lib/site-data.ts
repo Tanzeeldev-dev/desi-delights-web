@@ -13,12 +13,12 @@ export const BRAND = {
   orderUrl: "#contact",
 };
 
-const img = (id: string, w = 1200) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
+const img = (id: string, w = 900) =>
+  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=68`;
 
 export const IMAGES = {
-  hero: img("photo-1606491956689-2ea866880c84", 1920),
-  about: img("photo-1567188040759-fb8a883dc6d8", 1100),
+  hero: img("photo-1606491956689-2ea866880c84", 1500),
+  about: img("photo-1567188040759-fb8a883dc6d8", 760),
 };
 
 export type MenuItem = {
