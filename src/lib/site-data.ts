@@ -109,3 +109,26 @@ export const NAV_LINKS = [
   { label: "Reviews", href: "#reviews" },
   { label: "Contact", href: "#contact" },
 ];
+
+export const STEPS = [
+  { step: "01", title: "Pick Your Chaat", desc: "Browse the menu and choose your favourite fresh street-food dishes." },
+  { step: "02", title: "Place Your Order", desc: "Order online or call us — we start cooking the moment you confirm." },
+  { step: "03", title: "Enjoy It Hot", desc: "Fast delivery or quick collection, always fresh and piping hot." },
+];
+
+export const OFFERS = [
+  { title: "Family Chaat Box", desc: "A generous mix of all four favourites — perfect to share.", price: "£14.99", badge: "Save 20%" },
+  { title: "Lunch Combo", desc: "Any chaat + 2 samosas + a soft drink, weekdays 12–3pm.", price: "£7.50", badge: "Weekdays" },
+  { title: "Free Delivery", desc: "On all orders over £20 within 3 miles. No code needed.", price: "£0", badge: "Over £20" },
+];
+
+export type Faq = { q: string; a: string };
+
+export const FAQS: Faq[] = [
+  { q: "Is all your food halal?", a: "Yes — 100% of our ingredients are certified halal, and we prepare everything in a dedicated halal kitchen." },
+  { q: "Do you offer vegetarian and vegan options?", a: "Absolutely. Our fruit chaat and chana chaat are vegan-friendly, and most of our menu is vegetarian." },
+  { q: "What areas do you deliver to?", a: "We deliver across Greater Manchester. Free delivery on orders over £20 within a 3-mile radius." },
+  { q: "How fresh is the food?", a: "Everything is prepped fresh every single morning. We never freeze our chaat and cook in small batches." },
+  { q: "Can I order for an event or party?", a: "Yes! We cater for parties and events of all sizes. Call us to discuss a custom platter order." },
+];
+
