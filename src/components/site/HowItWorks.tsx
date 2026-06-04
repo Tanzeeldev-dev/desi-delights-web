@@ -16,7 +16,7 @@ export function HowItWorks() {
         </Reveal>
 
         <div className="relative mt-14 grid grid-cols-1 gap-8 sm:grid-cols-3">
-          <div className="absolute left-0 right-0 top-9 hidden h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent sm:block" />
+          <div className="absolute left-0 right-0 top-8 hidden h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent sm:block" />
           {STEPS.map((s, i) => (
             <motion.div
               key={s.step}
@@ -26,7 +26,7 @@ export function HowItWorks() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.5, delay: i * 0.12, ease: [0.22, 1, 0.36, 1] }}
             >
-              <div className="flex h-18 w-18 items-center justify-center rounded-full bg-primary font-display text-2xl font-extrabold text-primary-foreground shadow-lift">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary font-display text-2xl font-extrabold text-primary-foreground shadow-lift">
                 {s.step}
               </div>
               <h3 className="mt-5 font-display text-xl font-bold text-foreground">
