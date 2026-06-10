@@ -19,12 +19,13 @@ export function About() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
-          <div className="overflow-hidden rounded-2xl shadow-lift">
+          <div className="absolute -left-4 -top-4 h-24 w-24 rounded-3xl bg-accent/20 sm:h-32 sm:w-32" />
+          <div className="relative overflow-hidden rounded-3xl shadow-lift ring-1 ring-black/5">
             <img
               src={IMAGES.about}
               alt="Authentic Desi dishes freshly prepared in our kitchen"
               loading="lazy"
-              className="aspect-[4/5] w-full object-cover"
+              className="aspect-[4/3] w-full object-cover lg:aspect-[4/5]"
             />
           </div>
           <div className="absolute -bottom-6 -right-4 hidden rounded-2xl bg-primary px-7 py-5 shadow-lift sm:block">
