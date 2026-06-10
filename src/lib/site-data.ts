@@ -72,6 +72,20 @@ export const MENU: MenuItem[] = [
     image: img("photo-1529042410759-befb1204b468", 500),
     tag: "Spicy",
   },
+  {
+    name: "Gol Gappay",
+    description: "Crispy hollow puris filled with spiced potato, chickpeas & tangy tamarind water.",
+    price: "£4.25",
+    image: img("photo-1601050690597-df0568f70950", 500),
+    tag: "Vegan",
+  },
+  {
+    name: "Seekh Kabab",
+    description: "Char-grilled minced beef skewers, smoky and packed with fresh herbs & spice.",
+    price: "£3.95",
+    image: img("photo-1633237308525-cd587cf71926", 500),
+    tag: "Halal",
+  },
 ];
 
 export const GALLERY: string[] = [
