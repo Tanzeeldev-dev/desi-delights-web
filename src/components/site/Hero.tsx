@@ -45,7 +45,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.26, ease: [0.22, 1, 0.36, 1] }}
           >
-            Chana chaat, fruit chaat, golden samosas & crispy pakoras — authentic
+            Chana chaat, fruit chaat, golden samosas & crispy pakoras. Authentic
             Pakistani & Indian flavours, made with love and delivered hot.
           </motion.p>
 
