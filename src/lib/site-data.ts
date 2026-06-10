@@ -58,6 +58,20 @@ export const MENU: MenuItem[] = [
     image: img("photo-1596797038530-2c107229654b", 500),
     tag: "Halal",
   },
+  {
+    name: "Shami Kabab",
+    description: "Soft, melt-in-the-mouth minced beef kababs blended with lentils & aromatic spices.",
+    price: "£2.50",
+    image: img("photo-1633945274405-b6c8069047b0", 500),
+    tag: "Halal",
+  },
+  {
+    name: "Chapli Kabab",
+    description: "Flat, spicy Peshawari-style minced beef kababs with tomato, chilli & coriander.",
+    price: "£3.75",
+    image: img("photo-1529042410759-befb1204b468", 500),
+    tag: "Spicy",
+  },
 ];
 
 export const GALLERY: string[] = [
