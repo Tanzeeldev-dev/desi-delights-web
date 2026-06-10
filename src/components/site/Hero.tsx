@@ -16,7 +16,6 @@ export function Hero() {
           alt="A vibrant spread of fresh Desi street food"
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-maroon/90 via-maroon/45 to-foreground/40" />
       </motion.div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pt-28 pb-20 sm:px-8">
