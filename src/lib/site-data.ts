@@ -1,6 +1,15 @@
 // Central brand + content data for Chaat Street.
 // Swap [BRAND NAME], [PHONE], [ADDRESS] values here to rebrand instantly.
 
+import chanaChaat from "@/assets/menu/chana-chaat.jpg";
+import fruitChaat from "@/assets/menu/fruit-chaat.jpg";
+import samosaImg from "@/assets/menu/samosa.jpg";
+import pakoraImg from "@/assets/menu/pakora.jpg";
+import shamiKabab from "@/assets/menu/shami-kabab.jpg";
+import chapliKabab from "@/assets/menu/chapli-kabab.jpg";
+import golGappay from "@/assets/menu/gol-gappay.jpg";
+import seekhKabab from "@/assets/menu/seekh-kabab.jpg";
+
 export const BRAND = {
   name: "Chaat Street",
   phone: "+44 7700 900123",
