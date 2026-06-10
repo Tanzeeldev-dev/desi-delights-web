@@ -40,7 +40,7 @@ export function Hero() {
           </motion.h1>
 
           <motion.p
-            className="mt-5 max-w-lg text-lg text-primary-foreground/90"
+            className="mt-5 max-w-lg text-lg text-primary-foreground [text-shadow:0_1px_10px_rgba(0,0,0,0.5)]"
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.26, ease: [0.22, 1, 0.36, 1] }}
