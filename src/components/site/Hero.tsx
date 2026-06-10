@@ -30,7 +30,7 @@ export function Hero() {
           </motion.span>
 
           <motion.h1
-            className="mt-5 text-balance font-display text-5xl font-extrabold leading-[1.02] text-primary-foreground sm:text-6xl lg:text-7xl"
+            className="mt-5 text-balance font-display text-5xl font-extrabold leading-[1.02] text-primary-foreground [text-shadow:0_2px_18px_rgba(0,0,0,0.55)] sm:text-6xl lg:text-7xl"
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
