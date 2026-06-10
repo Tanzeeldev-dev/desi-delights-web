@@ -16,7 +16,6 @@ export function Hero() {
           alt="A vibrant spread of fresh Desi street food"
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-maroon/90 via-maroon/45 to-foreground/40" />
       </motion.div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pt-28 pb-20 sm:px-8">
@@ -31,7 +30,7 @@ export function Hero() {
           </motion.span>
 
           <motion.h1
-            className="mt-5 text-balance font-display text-5xl font-extrabold leading-[1.02] text-primary-foreground sm:text-6xl lg:text-7xl"
+            className="mt-5 text-balance font-display text-5xl font-extrabold leading-[1.02] text-primary-foreground [text-shadow:0_2px_18px_rgba(0,0,0,0.55)] sm:text-6xl lg:text-7xl"
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
@@ -41,7 +40,7 @@ export function Hero() {
           </motion.h1>
 
           <motion.p
-            className="mt-5 max-w-lg text-lg text-primary-foreground/90"
+            className="mt-5 max-w-lg text-lg text-primary-foreground [text-shadow:0_1px_10px_rgba(0,0,0,0.5)]"
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.26, ease: [0.22, 1, 0.36, 1] }}
